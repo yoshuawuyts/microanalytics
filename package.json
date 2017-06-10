@@ -1,0 +1,28 @@
+{
+  "name": "microanalytics",
+  "description": "Capture analytics events in the browser",
+  "repository": "yoshuawuyts/microanalytics",
+  "version": "1.0.0",
+  "scripts": {
+    "deps": "dependency-check . && dependency-check . --extra --no-dev",
+    "start": "node .",
+    "test": "standard && npm run deps"
+  },
+  "dependencies": {
+    "nanobeacon": "^1.0.0",
+    "nanologger": "^1.1.0",
+    "xtend": "^4.0.1"
+  },
+  "devDependencies": {
+    "dependency-check": "^2.8.0",
+    "standard": "^10.0.2",
+    "tape": "^4.6.3"
+  },
+  "keywords": [
+    "timing",
+    "api",
+    "performance",
+    "frontend"
+  ],
+  "license": "MIT"
+}
