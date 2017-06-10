@@ -61,6 +61,9 @@ Append new data to the transaction.
 ## `transaction.flush()`
 End the transaction.
 
+## See Also
+- [shipharbor/analytics-service](https://github.com/shipharbor/analytics-service)
+
 ## License
 [MIT](https://tldrlegal.com/license/mit-license)
 
