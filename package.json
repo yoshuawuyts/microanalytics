@@ -2,7 +2,7 @@
   "name": "microanalytics",
   "description": "Capture analytics events in the browser",
   "repository": "yoshuawuyts/microanalytics",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "deps": "dependency-check . && dependency-check . --extra --no-dev",
     "start": "node .",
