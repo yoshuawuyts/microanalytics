@@ -6,6 +6,8 @@ var xtend = require('xtend')
 module.exports = MicroAnalytics
 
 function MicroAnalytics (url, defaultData) {
+  if (!(this instanceof MicroAnalytics)) return new MicroAnalytics(url, defaultData)
+
   defaultData = defaultData || {}
 
   assert.equal(typeof url, 'string', 'microanalytics: url should be type string')
